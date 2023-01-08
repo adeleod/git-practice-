@@ -1,3 +1,4 @@
 Name: Adele Davies
 Age: 28
-Favorite Color: Yellow
+Favorite Color: Yellow 
+Favorite Drink: Coffee 
