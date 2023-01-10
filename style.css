@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .html, body {
+    width: 80vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: none; }
+
+  @font-face {
+    font-family: 'Monument Grotesk Mono';
+    src: url('MonumentGrotesk-Mono.eot');
+    src: local('Monument Grotesk Mono'), local('MonumentGrotesk-Mono'),
+        url('MonumentGrotesk-Mono.eot?#iefix') format('embedded-opentype'),
+        url('MonumentGrotesk-Mono.woff2') format('woff2'),
+        url('MonumentGrotesk-Mono.woff') format('woff'),
+        url('MonumentGrotesk-Mono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  @font-face {
+    font-family: 'Monument Grotesk Semi-Mono';
+    src: url('MonumentGrotesk-Semi-Mono.eot');
+    src: local('Monument Grotesk Semi-Mono'), local('MonumentGrotesk-Semi-Mono'),
+        url('MonumentGrotesk-Semi-Mono.eot?#iefix') format('embedded-opentype'),
+        url('MonumentGrotesk-Semi-Mono.woff2') format('woff2'),
+        url('MonumentGrotesk-Semi-Mono.woff') format('woff'),
+        url('MonumentGrotesk-Semi-Mono.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+  
+  .flex-container {
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    gap: 100px;
+   
+  }
+  
+  .flex-item {
+    flex-basis: 100px;
+    flex-grow: 1;
+  }
+  
+  h1 {
+    color: black;
+    font-family: 'Monument Grotesk Mono', 'Monument Grotesk Semi-Mono', 'Courier New'; 
+    font-weight: bolder;
+    letter-spacing: -1px;
+    font-size: 30px;
+    display: block;
+    width: 1000px;
+    margin-bottom: -20px;
+   
+  }
+  
+  h3 {
+    color: black; 
+    font-family: 'Monument Grotesk Semi-Mono', 'Courier New'; 
+    font-weight: lighter;
+    letter-spacing: -1px;
+    font-size: 15px;
+    display: block;
+    width: 1000px;
+    padding-bottom: 110px;
+    
+  }
+  
+  [href] {
+    color: black;
+  }
+  
+  img[src*='https://freight.cargo.site/w/2500/q/75/i/6204f7c0e1480a92e453b2ed4e0eb2864e4f18fe58f1e43dbe98ce5a3293ac29/Henri-Frachon--Antoine-Lecharny--Palais-de-Tokyo1.jpg'] {
+    height: 477.23px;
+    width: 715.72px;
+    
+  }
+  
+  img[src*='https://freight.cargo.site/t/original/i/bcfa1f4fe1d07cd389dc5e3a5de8a762bedd3e0063e3ecb059b8484ebd4baa74/Vues-d-expo-_-Henri-Frachon-Lecharny-_34.jpg'] {
+    height: 499.38px;
+    width: 332.92px;
+  }
+  
+  img[src*='https://freight.cargo.site/w/1500/q/75/i/a699df8b7e7260a46298e9bd786f7a8ba1e41dd02c827df0736aab95b403f573/Vues-d-expo-_-Henri-Frachon-Lecharny-_41_1.jpg'] {
+    height: 499.38px;
+    width: 332.92px;
+  }
+  
+  img[src*='https://freight.cargo.site/w/1500/q/75/i/7eb92301628d7e93c4534672a28fe05b61e0bf75699ccd2f8940a3a7f31b66b3/Henri-Frachon--Palais-de-Tokyo2.jpg'] {
+    height: 499.38px;
+    width: 332.92px;
+  }
+  
+  img[src*='https://freight.cargo.site/w/1500/q/75/i/67b3b9bff5917a2f1f7a7cd9e70f13100e2c82880c29dadf4b78e967d89a8c1d/Henri-Frachon--Antoine-Lecharny--L1149253.jpg'] {
+    height: 501.6px;
+    width: 332.92px;
+  }
+  
+  figcaption {
+    font-family: 'Monument Grotesk Semi-Mono', 'Courier New'; 
+   font-size: 10px;
+    text-align: center;
+  }
+  
+  
